@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <title>과제2</title>
+</head>
+<body>
+  
+ 
+    <div class="inner__Box">
+      <h1>로그인</h1>
+      <form action="https://formspree.io/f/xnqykoqn" method="GET">
+      <fieldset>
+        <legend class="a11yHidden">
+          로그인 정보를 입력하시오
+        </legend>
+    
+        <ul class="login__Info">
+    
+          <li class="login login-1">
+            <label for="id" class="a11yHidden"></label>
+            <p>아이디</p><input type="email" id="id" class="loginCommon login__Id" placeholder="euid@euid.delicate.com"/>
+            </li>
+          <li class="login login-2">
+            <label for="password" class="a11yHidden"></label>
+            <p>비밀번호</p><input type="password" id="pass" class="loginCommon login__Pw" placeholder="8자리 이상"/>
+           </li>
+           <input type="button" value="로그인" class="button"/>
+        </ul>
+      </fieldset>
+      </form>
+      <div class="out__box">
+  
+      </div>
+      <ul class="join">
+        <li><span>&gt;</span> 회원가입</li>
+        <li><span>&gt;</span> 아이디/비밀번호 찾기</li>
+      </ul>
+    </div>
+    
+  
+</body>
+</html>

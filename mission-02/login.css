@@ -1,0 +1,161 @@
+/* 레전드 숨기기 */
+.a11yHidden {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px; 
+}
+
+
+p {
+
+ font-size: 0.8rem;
+
+}
+
+.login__Info {
+  position: relative;
+  top: 8px;
+
+
+
+}
+.loginCommon {
+  width: 5.625rem; /*90*/ 
+  height: 1.25rem;/*20*/
+  position: absolute;
+  right: 4.125rem;  
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  
+  
+  }
+  .login__Pw{
+    top: 1.8rem;
+
+  }
+
+.login {
+ 
+ margin-left: 8px;
+ margin-bottom: 4px;
+ 
+ 
+ 
+
+}
+
+
+.inner__Box {
+
+  background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
+  ;
+  width: 15.3125rem; /*245*/
+  height: 10rem; /*160*/
+  border-radius: 5px;
+  position: relative;
+}
+p {
+ 
+ background: hotpink;
+ height: 100%;
+ font-size: 0.8rem;
+ font-weight: 500;
+top: 5px;
+ 
+ 
+ 
+}
+
+.login-1 p {
+  position: absolute;
+  
+}
+
+.login-2 p {
+  position: absolute;
+
+  top: 2.2rem;
+}
+
+
+/* 로그인 헤더 */
+h1 {
+
+  font-size: 0.9375rem;
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  color: #FFFF00;
+   }
+
+   fieldset {
+    width: 13.75rem;
+    height: 6.625rem;
+    position: absolute;
+    top: 2.6875rem;
+    left: 0.78125rem;/*12.5px*/
+  
+    background: white;
+    border-radius: 5px;
+
+   }
+
+   
+    
+  
+
+  /* 로그인 제출 버튼 */
+.button {
+  border: 0;
+  border-radius: 0.25rem;
+  height: 3.3125rem;
+  width: 3.125rem;
+  
+
+  position: absolute;
+  right: 0.5rem;  /*8px*/
+
+  background: #ED552F;
+  color: white;
+
+
+
+}
+
+.join {
+  position: absolute;
+  bottom: 1.3rem;
+  font-size: 0.8rem;/*12.5px*/
+  left: 1.25rem;
+
+}
+
+ul.join li:first-child {
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+ul.join li:nth-child(2) {
+ 
+  display: inline;
+  
+}
+span {
+  
+  color: orange;
+}
+
+.out__box {
+  border-bottom: 0.0625rem solid #cccccc;
+  
+  width: 13.0625rem;
+  position: absolute;
+  left: 17.5px;
+  top: 115px;
+
+}
