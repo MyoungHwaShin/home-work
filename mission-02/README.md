@@ -44,7 +44,7 @@ float과 display를 활용해 만들어보는 로그인폼
 <h1>CSS<h1>
 
 
-- Wai-ARIA .a11yHidden 활용해 legend 숨김
+- Wai-ARIA .a11yHidden 활용해 legend 숨김 처리
 - reset.css 이용해 기본 에이전트 스타일 제거
 - 로그인 박스 fieldset 자체에 display: relative; 주어 내부 자식 요소들 absolute로 배치
 - 자식요소 중 하나인 ul.login__Info에 display: relative; 주어 button과 li 요소들 구성
@@ -57,11 +57,11 @@ float과 display를 활용해 만들어보는 로그인폼
 
 <h1> What I learn </h1>
 
-block 과 inline이 float에 미치는 변화 확인 - display로 해결가능
-clear:both 사용시 상속받은 float이 해제되면 밑으로 배치됨
+block 과 inline이 float에 미치는 변화 확인 - display로 해결
+clear:both 사용시 상속받은 float이 해제되면 밑으로 배치
 
 부모 display:relative;, 자식 display:absolute로 
-문서 내 자식 요소 배치에 유용.
+문서 내 자식 요소 배치에 유용
 
 
 
