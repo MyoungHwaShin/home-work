@@ -9,129 +9,119 @@
   margin: -1px; 
 }
 
-
 p {
-
- font-size: 0.8rem;
-
+  
+  background: hotpink;
+  height: 100%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  top: 0.3125rem;/*5px*/
+  
 }
-
-.login__Info {
-  position: relative;
-  top: 8px;
-
-
-
-}
-.loginCommon {
-  width: 5.625rem; /*90*/ 
-  height: 1.25rem;/*20*/
+/* 로그인 박스 하단 가로구분선 */
+.out__box {
+  border-bottom: 0.0625rem solid #cccccc;
+  
+  width: 13.0625rem;
   position: absolute;
-  right: 4.125rem;  
-  border-radius: 3px;
-  border: 1px solid #cccccc;
-  
-  
-  }
-  .login__Pw{
-    top: 1.8rem;
-
-  }
-
-.login {
- 
- margin-left: 8px;
- margin-bottom: 4px;
- 
- 
- 
+  left: 17.5px;
+  top: 115px;
 
 }
-
+/*로그인 박스 */
 
 .inner__Box {
-
+  
   background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
   ;
   width: 15.3125rem; /*245*/
   height: 10rem; /*160*/
-  border-radius: 5px;
+  border-radius: 0.3125rem;/*5px*/
   position: relative;
 }
-p {
- 
- background: hotpink;
- height: 100%;
- font-size: 0.8rem;
- font-weight: 500;
-top: 5px;
- 
- 
- 
-}
-
-.login-1 p {
-  position: absolute;
-  
-}
-
-.login-2 p {
-  position: absolute;
-
-  top: 2.2rem;
-}
-
-
-/* 로그인 헤더 */
+/* 로그인 제목 */
 h1 {
-
+  
   font-size: 0.9375rem;
   position: absolute;
   top: 0.75rem;
   left: 0.75rem;
   color: #FFFF00;
-   }
+}
 
-   fieldset {
-    width: 13.75rem;
-    height: 6.625rem;
-    position: absolute;
-    top: 2.6875rem;
-    left: 0.78125rem;/*12.5px*/
-  
-    background: white;
-    border-radius: 5px;
+/* 필드셋 흰박스 */
 
-   }
-
-   
-    
-  
-
-  /* 로그인 제출 버튼 */
-.button {
-  border: 0;
-  border-radius: 0.25rem;
-  height: 3.3125rem;
-  width: 3.125rem;
-  
-
-  position: absolute;
-  right: 0.5rem;  /*8px*/
-
-  background: #ED552F;
-  color: white;
-
-
+fieldset {
+ width: 13.75rem;
+ height: 6.625rem;
+ position: absolute;
+ top: 2.6875rem;
+ left: 0.78125rem;/*12.5px*/
+  background: white;
+ border-radius: 0.3125rem;/*5px*/
 
 }
 
+.login__Info {
+  position: relative;
+  top: 0.5rem;/*8px*/
+
+}
+/* 인풋태그 공통*/
+.loginCommon {
+  width: 5.625rem; /*90*/ 
+  height: 1.25rem;/*20*/
+  position: absolute;
+  right: 4.125rem;  
+  border-radius: 0.1875rem; /*3px*/
+  border: 1px solid #cccccc;
+  
+  
+  }
+  /* li 로그인 공통 */
+  .login {
+   
+   margin-left: 0.5rem;/*8px*/
+   margin-bottom: 0.25px;/*6px*/
+  
+  }
+  /* 비밀번호 입력칸 위치 조정 */
+  .login__Pw{
+    top: 1.8rem;
+  }
+
+  .login-1 p {
+    position: absolute;
+    
+  }
+  
+  .login-2 p {
+    position: absolute;
+  
+    top: 2.2rem;
+  }
+
+
+
+
+
+/* 로그인 제출 버튼 */
+.button {
+border: 0;
+border-radius: 0.25rem;
+height: 3.3125rem;
+width: 3.125rem;
+position: absolute;
+right: 0.5rem;  /*8px*/
+background: #ED552F;
+color: white;
+}
+/* 회원가입 / 비밀번호 찾기 */
 .join {
   position: absolute;
   bottom: 1.3rem;
   font-size: 0.8rem;/*12.5px*/
   left: 1.25rem;
-
 }
 
 ul.join li:first-child {
@@ -145,17 +135,8 @@ ul.join li:nth-child(2) {
   display: inline;
   
 }
+/* 꺽쇠 색상 */
 span {
   
   color: orange;
-}
-
-.out__box {
-  border-bottom: 0.0625rem solid #cccccc;
-  
-  width: 13.0625rem;
-  position: absolute;
-  left: 17.5px;
-  top: 115px;
-
 }
