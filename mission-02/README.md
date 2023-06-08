@@ -55,21 +55,21 @@ float과 display를 활용해 만들어보는 로그인폼
 - ul.join li:nth-child(2) 블록요소로 인해 자동 줄바꿈 가로 동일선상 나열위해
   display:inline 적용
 
+<h1> What I learn </h1>
 
-float:left 적용 해당 요소 문서상 왼쪽으로 배치 
+block 과 inline이 float에 미치는 변화 확인 - display로 해결가능
+clear:both 사용시 상속받은 float이 해제되면 밑으로 배치됨
 
-
-
-
-
-
-
+부모 display:relative;, 자식 display:absolute로 
+문서 내 자식 요소 배치에 유용.
 
 
 
-동기가 무엇이었나요?
-왜 이 프로젝트를 기획했나요?
-이 프로젝트는 어떤 문제를 해결하나요?
-이 프로젝트를 통해 무엇을 배우셨나요?
-이 프로젝트의 특징은 무엇인가요?
-만약 프로젝트의 특징이 너무 많다면, '특징' 섹션을 추가해서 이곳에 나열하세요.
+
+
+
+
+
+
+
+
