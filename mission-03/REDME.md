@@ -41,3 +41,5 @@ div>h1>span+div>ul>li*5>a
 3. 가상클래스 사용으로 트랜지션 적용 확인
 
 4. 엥커 태그 선택 가능 영역 확장 _display:block_
+
+<img src="./transition.gif" style=" width:200px">
