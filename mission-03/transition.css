@@ -17,7 +17,7 @@ h1 {
   font-size: 1rem;
   /* h1 태그에 기본적으로 있는 마진을 제거해줌 */
   margin: 0;
-  /* position: absolute; */
+  
 
 }  
 .out-box {
