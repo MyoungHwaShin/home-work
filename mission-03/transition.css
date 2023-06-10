@@ -1,0 +1,78 @@
+div, h1, ul, li {
+  box-sizing: border-box;
+  /* 패딩으로 인해 사이즈가 영향 받을 수 있어 보더 박스 설정 */
+  
+}  
+span {
+  color: orange;
+}
+
+
+body{
+  padding: 200px;
+}  
+
+h1 {
+
+  font-size: 1rem;
+  /* h1 태그에 기본적으로 있는 마진을 제거해줌 */
+  margin: 0;
+  /* position: absolute; */
+
+}  
+.out-box {
+  
+  
+  margin: 100px;
+  width: 11.875rem;
+  border-radius: 7px;
+  padding: 12px;
+  /* 상하좌우 12픽셀의 패딩을 줌 */
+  border: 1px solid rgba(173, 173, 173, 0.635);
+  /* 블록요소의 성질대로 내부 컨텐츠 높이가 자신의 높이가 되므로
+    높이를 지정하지 아니하고 기본값 auto로 두고 가로크기 지정 후 내부 컨텐츠 사이즈를 오버로 움직일 것 */
+  
+}  
+
+.wide-box {
+  
+  padding: 0 0 0 15px;
+  height: 1.75rem;/*32px*/
+  border: 1px solid rgba(173, 173, 173, 0.635);
+  /* 트랜지션으 property duration function delay 순서 */
+  transition: height 350ms ease 150ms,  padding 400ms ease-in-out 300ms;
+  
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.wide-box:hover {
+  height: 10rem; /*145px*/
+  border-radius: 5px;
+  padding: 15px 0 0 15px;
+  
+}
+
+a {
+  /* 인라인 요소인 앵커 태그에 블록을 주어 컨텐츠 이외 영역 또한 선택 가능하게 만들어줌 */
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  
+  
+}
+/* li간 줄간격만들기 */
+li {
+  margin: 5px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
