@@ -32,7 +32,7 @@ div>h1>span+div>ul>li*5>a
 엥커 태그 선택 영역 확장 
 - 엥커 태그 특성(밑줄 글자색 변경) 제거
 
-<h2>What I learn</h2>
+<h2>What I learned</h2>
 
 1. 패딩으로 인한 사이즈 변경 제어 방법 **box-sizing: border-box;**
 
