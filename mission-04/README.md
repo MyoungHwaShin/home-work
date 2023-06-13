@@ -42,6 +42,10 @@ grid-area: grid-row-start / grid-column-start/ grid-row-end/ grid-column-end;
 </br>
 </br>
 
+<h2>What I learned</h2>
+
+"그리드 시스템을 이용한 요소 배치 방법"
+
 <img src="./mission4.png">
 
 
