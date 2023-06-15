@@ -1,82 +1,78 @@
 body {
   margin: 100px;
 }
-
-.favoriteSite {
-  font-size: 1rem;
-  grid-area: favoriteSite;
-  margin: 7px 0 0 7px;
-  
-}
-.siteColor {
-  color: orange;
-}
-
-.favoriteMore {
-  padding-right: 8px;
-  padding-top: 7px;
-  text-align: right;
+/* 엥커태그 색상 상속 / 링크 밑줄 제거 */
+a {
   text-decoration: none;
-  /* height: 20px; */
-  /* width: 20px; */
   color: inherit;
-  grid-area: favoriteMore;
 }
+
+/* 겉면 박스 그리드 시스템 컨테이너 */
 .rank {
-  width: 190px;
-  background: linear-gradient(to bottom, rgba(204, 204, 204, 1) 10%, rgba(238, 238, 238, 1) 50%);
-  border-radius: 5px;
-  display: grid;
-  padding: 10px;
-  grid-template-columns: 100px 1fr;
+ width: 190px;
+ background: linear-gradient(to bottom, rgba(204, 204, 204, 1) 10%, rgba(238, 238, 238, 1) 50%);
+ border-radius: 5px;
+ display: grid;
+ padding: 15px;
   grid-template-rows: 30px 1fr;
   gap: 1px;
-  
   grid-template-areas:
     "favoriteSite favoriteMore favoriteMore"
     "rank-top rank-top rank-top"
     "rank-top rank-top rank-top";
+
 }
-ol {
-  padding-left: 28px;
-  line-height: 23px;
-  margin: 13px 0 13px 0;
+
+.siteColor {
+  color: orange;
 }
 
 
 .rank-top {
   grid-area: rank-top;
+  margin-top: 0;
+  padding: 0;
+}
+.favoriteMore {
+  grid-area: favoriteMore;
+  text-align: right;
+  
+}
+.favoriteSite {
+  grid-area: favoriteSite;
+  margin: 0;
+  font-size: 1rem;
+}
+.ranker {
+  display: flex;
+  margin-top: 5px;
+  counter-increment: number;
   
 }
 
-.ranker {
- 
- 
-  }
-  .ranker {
-    counter-increment: number;
-
-  }
-
-.rankSite::before {
-   content: attr(number);
-   
-   
+.ranker::before {
+  content: counter(number);
+  background: grey;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  width: 19px;
+  height: 19px;
+}
+.rankSite {
+  font-size: 0.9rem;
+  flex-grow: 1;
+  padding-left: 10px;
 }
 
-
+/* 랭킹 상승 하강 유지 스프라이트 위치 */
 .sprite {
-  margin-top: 4px;
-  margin-right: 8px;
-  position: absolute;
-  right: 0;
   background: url(rank.png) no-repeat;
-  width: 9px;
-  height: 15px;
-  right: 0;
-  z-index: -1;
+  width: 5%;
+  height: auto;
+  
+    
 }
-
 .rankerFirst {
   background-position: 0 0;
 
@@ -88,10 +84,10 @@ ol {
 
 .rangkerThird {
 
-  background-position: 0 -45px;
+  background-position: 0 -42px;
 }
 
 .rangkerFourth {
 
-  background-position: 0 0px;
+  background-position: 0 0;
 }
